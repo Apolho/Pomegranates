@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A3175692-7A6C-4B23-9FC9-E3D16DA8C1AB}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{A3175692-7A6C-4B23-9FC9-E3D16DA8C1AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_ENV_Adan" ID="{A3B44AF6-3F12-4FA2-B9D7-393E75ABA220}">
+					<ChildrenList>
+						<Action Name="" ID="{106AE60C-9A86-4F1D-9AD1-374FA383A7A9}" ShortID="161502488">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_Adan" ID="{5019019D-4025-435E-A5D2-4ABFB79D9BD0}" WorkUnitID="{E11FCE8B-1000-4D09-A99B-BF446EA8A851}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ENV_Street" ID="{3FAFA399-275A-48C5-906B-D41E1BCF072F}">
+					<ChildrenList>
+						<Action Name="" ID="{4B047AF2-876C-4CCA-A448-B48037F4AFF1}" ShortID="510631128">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_Street" ID="{49DBDE20-3D78-49A8-B871-278C5B6729DD}" WorkUnitID="{E11FCE8B-1000-4D09-A99B-BF446EA8A851}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="NewEvent" ID="{8F93DEFD-D7E6-4BED-990C-558166033BE6}">
+					<ChildrenList>
+						<Action Name="" ID="{C394996F-E96B-42F6-B471-F7C7AC52DB17}" ShortID="910581583">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_Ocean" ID="{A6EB1104-3EB8-436B-A360-2ADBAEF68E4D}" WorkUnitID="{E11FCE8B-1000-4D09-A99B-BF446EA8A851}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

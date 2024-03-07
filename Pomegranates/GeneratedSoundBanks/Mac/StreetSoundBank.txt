@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3122826827	Play_ENV_Street			\Default Work Unit\Play_ENV_Street	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1044535030	ENV_Street	Y:\Documents\NYU\Spring 24\Thesis\PomegranatesGIT\Pomegranates\.cache\Mac\SFX\GazaStreetAudio230min-16all_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENV_Street		9609696
+
