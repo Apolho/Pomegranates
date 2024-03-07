@@ -4,11 +4,17 @@
 		<UserProjectSettings Name="" ID="{EBF1EB03-A8C1-4F0F-A9FB-952AE3232BA9}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Documents\NYU\Spring 24\Thesis\Logic2Unity\"/>
+				<Property Name="Event Action List\{44864021-A112-4AE4-861F-510DA607C461}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{616B7699-EBBC-401B-B7F3-BECBBE041248}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{E6A5F0E2-F17B-41C2-A7B3-841679485901}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
 				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
+				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
