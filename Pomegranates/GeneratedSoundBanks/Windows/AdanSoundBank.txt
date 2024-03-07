@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1533437468	Play_ENV_Adan			\Default Work Unit\Play_ENV_Adan	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	65213053	ENV_Adan	Y:\Documents\NYU\Spring 24\Thesis\PomegranatesGIT\Pomegranates\.cache\Windows\SFX\Adan16ALL_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENV_Adan		8699988
+

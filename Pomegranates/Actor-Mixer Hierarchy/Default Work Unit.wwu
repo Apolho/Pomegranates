@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E11FCE8B-1000-4D09-A99B-BF446EA8A851}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E11FCE8B-1000-4D09-A99B-BF446EA8A851}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="ENV_Adan" ID="{5019019D-4025-435E-A5D2-4ABFB79D9BD0}" ShortID="1027019161">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0F80967-0E40-4FF4-A820-46EA4CA14191}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56CE2E47-193C-4D06-9FE1-698C5C6896AD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Adan16ALL" ID="{24211D50-672E-430B-97C7-739B625596D6}">
+							<Language>SFX</Language>
+							<AudioFile>Adan16ALL.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="65213053"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Adan16ALL" ID="{24211D50-672E-430B-97C7-739B625596D6}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ENV_Street" ID="{49DBDE20-3D78-49A8-B871-278C5B6729DD}" ShortID="306851788">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0F80967-0E40-4FF4-A820-46EA4CA14191}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56CE2E47-193C-4D06-9FE1-698C5C6896AD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GazaStreetAudio230min-16all" ID="{B93A91DA-B60D-459F-8197-BAF1F7661FDB}">
+							<Language>SFX</Language>
+							<AudioFile>GazaStreetAudio230min-16all.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1044535030"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GazaStreetAudio230min-16all" ID="{B93A91DA-B60D-459F-8197-BAF1F7661FDB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ENV_Ocean" ID="{A6EB1104-3EB8-436B-A360-2ADBAEF68E4D}" ShortID="369460723">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0F80967-0E40-4FF4-A820-46EA4CA14191}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{56CE2E47-193C-4D06-9FE1-698C5C6896AD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ocean" ID="{E4097AC3-A795-4DD0-9AA2-137D52AA667A}">
+							<Language>SFX</Language>
+							<AudioFile>Ocean.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="130202729"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ocean" ID="{E4097AC3-A795-4DD0-9AA2-137D52AA667A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

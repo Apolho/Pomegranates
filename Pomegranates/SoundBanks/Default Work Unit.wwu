@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EF9A0AA7-2F06-4E68-B72C-19F4E0FA60C7}" SchemaVersion="110">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{EF9A0AA7-2F06-4E68-B72C-19F4E0FA60C7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="StreetSoundBank" ID="{3983255A-736A-4A78-8F2F-049494666A4E}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_ENV_Street" ID="{3FAFA399-275A-48C5-906B-D41E1BCF072F}" WorkUnitID="{A3175692-7A6C-4B23-9FC9-E3D16DA8C1AB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="AdanSoundBank" ID="{D3358D23-1D29-4E8C-B9C0-BAF09F06582A}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_ENV_Adan" ID="{A3B44AF6-3F12-4FA2-B9D7-393E75ABA220}" WorkUnitID="{A3175692-7A6C-4B23-9FC9-E3D16DA8C1AB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="NewBank" ID="{D3FBF0F7-54CA-4CE5-93ED-85AB89593BB6}">
+					<ObjectInclusionList>
+						<ObjectRef Name="NewEvent" ID="{8F93DEFD-D7E6-4BED-990C-558166033BE6}" WorkUnitID="{A3175692-7A6C-4B23-9FC9-E3D16DA8C1AB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

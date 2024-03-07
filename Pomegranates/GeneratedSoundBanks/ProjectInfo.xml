@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Pomegranates" GUID="{E420F9DB-A6C3-4BB6-99C0-808F0D3ADFF6}" Generator="2022.1.8.8316"/>
+	<CacheRoot>../.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{1BCE6226-6745-415E-BEC6-DD303EA9E729}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="Mac"/>
+		<Platform Name="Windows" GUID="{1F474836-10BB-48B3-9CBF-CF12B8E57C70}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{DF79355E-9A73-4AF5-8972-34015E0607E4}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{876419D9-D398-36F0-EA13-CC04E2A9510D}</FileHash>
+</ProjectInfo>
