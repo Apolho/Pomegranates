@@ -7,8 +7,8 @@ public class PaperDrop : MonoBehaviour
     public GameObject paperPrefab;
     public float spawnInterval = 1.0f;
     public float spawnHeight = 10.0f;
-    public float spawnRadius = 20.0f;
-    public float totalSpawnTime = 20.0f;
+    public float spawnRadius = 5.0f;
+    public float totalSpawnTime = 10.0f;
 
     private float timer;
     private float totalTimeElapsed;
