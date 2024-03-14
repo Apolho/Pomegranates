@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Digging : MonoBehaviour
@@ -51,6 +52,33 @@ public class Digging : MonoBehaviour
                     Destroy(hit.collider.gameObject);
                     gameManager.GetComponent<GameManager>().ShowCanvas(
                         "When you pick up the book, you feel a power from it. Your surroundings begin to change and you are not where you started.");
+                }
+                
+                
+                
+                if (hit.collider.CompareTag("Memory") && gameManager.GetComponent<GameManagerPast>().location.Count > 0)
+                {
+                    Destroy(hit.collider.gameObject);
+                    gameManager.GetComponent<GameManagerPast>().SpawnPaper();
+                    gameManager.GetComponent<GameManagerPast>().MemoryManager();
+                    gameManager.GetComponent<GameManagerPast>().ShowCanvas(
+                        "Go to " + gameManager.GetComponent<GameManagerPast>().currentLocationString + " for a special memory");
+                    gameManager.GetComponent<GameManagerPast>().buttonsPressed++;
+                    gameManager.GetComponent<GameManagerPast>().ChangeScene();
+                }
+                else if (hit.collider.CompareTag("Memory") && gameManager.GetComponent<GameManagerPast>().location.Count == 0)
+                {
+                    Destroy(hit.collider.gameObject);
+                    gameManager.GetComponent<GameManagerPast>().ShowCanvas(
+                        "It's time to go back to where you came from and save everyone. Bury the book in the town center");
+                    gameManager.GetComponent<GameManagerPast>().buttonsPressed++;
+                }
+
+                if (hit.collider.CompareTag("Tree"))
+                {
+                    hit.collider.gameObject.GetComponent<Renderer>().material = null;
+                    gameManager.GetComponent<GameManager>().ShowCanvas(
+                        "As you bury the book full of memories of the past, you see as people and buildings comeback \n The End");
                 }
                 
             }
