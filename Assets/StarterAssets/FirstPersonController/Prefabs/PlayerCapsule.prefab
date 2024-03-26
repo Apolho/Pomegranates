@@ -143,6 +143,7 @@ GameObject:
   - component: {fileID: 1978471637655604388}
   - component: {fileID: 5420857361349278248}
   - component: {fileID: 7300131852322422900}
+  - component: {fileID: 1388909960821388918}
   - component: {fileID: 8616685848737228376}
   m_Layer: 8
   m_Name: PlayerCapsule
@@ -263,7 +264,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54fae3b7ef12b304ea27b8e9e04be4e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
+  veggiesCollected: 0
+  gameManager: {fileID: 0}
+  reticle: {fileID: 0}
+--- !u!114 &1388909960821388918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8616685848737228372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f9b2936d63e92b4bb74bce86a3be5fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reticle: {fileID: 0}
 --- !u!114 &8616685848737228376
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class Digging : MonoBehaviour
 
     public int veggiesCollected;
     public GameObject gameManager;
-
+    
     //public GameObject ClickedObj;
 
     
@@ -23,6 +23,7 @@ public class Digging : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetMouseButtonDown(0)) //when left mouse button pressed
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

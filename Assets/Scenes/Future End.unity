@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 406812574}
-  m_IndirectSpecularColor: {r: 0.35775155, g: 0.73686606, b: 0.9810811, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6047,6 +6047,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3504378921907573502, guid: 06db750d2a91f3a4cbb10ac831c1b9b6, type: 3}
+      propertyPath: reticle
+      value: 
+      objectReference: {fileID: 1130139706}
     - target: {fileID: 5092215971257066748, guid: 06db750d2a91f3a4cbb10ac831c1b9b6, type: 3}
       propertyPath: gameManager
       value: 
@@ -50488,7 +50492,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1908626288}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1832875316
 PrefabInstance:
@@ -51827,9 +51831,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 399387520}
+  - {fileID: 1826369329}
   - {fileID: 1694402540}
   - {fileID: 1507322378}
-  - {fileID: 1826369329}
   - {fileID: 813806267}
   - {fileID: 1394327173}
   - {fileID: 503703813}
