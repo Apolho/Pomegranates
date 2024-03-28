@@ -25,7 +25,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="NewEvent" ID="{8F93DEFD-D7E6-4BED-990C-558166033BE6}">
+				<Event Name="Play_ENV_Ocean" ID="{8F93DEFD-D7E6-4BED-990C-558166033BE6}">
 					<ChildrenList>
 						<Action Name="" ID="{C394996F-E96B-42F6-B471-F7C7AC52DB17}" ShortID="910581583">
 							<ReferenceList>
