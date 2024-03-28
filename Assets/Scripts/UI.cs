@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class UI : MonoBehaviour
 {
-    public GameObject reticle; 
+    public TextMeshProUGUI reticle; 
     // Start is called before the first frame update
     void Start()
     {
@@ -45,7 +46,11 @@ public class UI : MonoBehaviour
                 reticle.GetComponent<Image>().color = Color.white;
             }
         }
+        else
+        {
+            reticle.GetComponent<Image>().color = Color.red;
+        }
         
-        reticle.GetComponent<Image>().color = Color.red;
+        
     }
 }

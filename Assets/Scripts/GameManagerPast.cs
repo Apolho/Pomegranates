@@ -1,8 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
+using Random = UnityEngine.Random;
 
 public class GameManagerPast : MonoBehaviour
 {
@@ -27,7 +30,12 @@ public class GameManagerPast : MonoBehaviour
 
     public int buttonsPressed;
 
-    public TextMeshProUGUI canvasTextBox;
+    public TextMeshProUGUI flyerTextBox;
+
+    public TextMeshProUGUI[] bookTextBox;
+
+    public AudioSource journalWriting;
+    
     
     // Start is called before the first frame update
     void Start()
@@ -46,9 +54,7 @@ public class GameManagerPast : MonoBehaviour
         Debug.Log(location.Count);
         
         MemoryManager();
-        
-        ShowCanvas("Go to " + currentLocationString + " for a special memory");
-        
+        ChangeFlyer();
         
     }
 
@@ -107,7 +113,7 @@ public class GameManagerPast : MonoBehaviour
         canvas.SetActive(true);
         player.SetActive(false);
         reticle.SetActive(false);
-        canvasTextBox.text = text;
+        flyerTextBox.text = text;
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
     }
@@ -116,7 +122,7 @@ public class GameManagerPast : MonoBehaviour
     {
         if (buttonsPressed == 3) //if the button has been pressed
         {
-            SceneManager.LoadScene("Future 1");
+            SceneManager.LoadScene("Future End");
         }
         
     }
@@ -137,6 +143,29 @@ public class GameManagerPast : MonoBehaviour
         location.Remove(randomKey);
         
         Debug.Log(location.Count +"," +  currentLocation +"," +  currentLocationString);
+    }
+
+    public void ArtifactJournal()
+    {
+        for (int i = 0; i < bookTextBox.Length; i++)
+        {
+            if (bookTextBox[i].text == "New Text")
+            {
+                bookTextBox[i].text = "Memory Collected";
+                return;
+            }
+            else
+            {
+                continue;
+            }
+        }
+    }
+
+    public void ChangeFlyer()
+    {
+        currentLocation.SetActive(true);
+        flyerTextBox.text = "Next memory at " + currentLocationString;
+        journalWriting.Play();
     }
 
     public void SpawnPaper()

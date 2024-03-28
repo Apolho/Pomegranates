@@ -62,8 +62,8 @@ public class Digging : MonoBehaviour
                     Destroy(hit.collider.gameObject);
                     gameManager.GetComponent<GameManagerPast>().SpawnPaper();
                     gameManager.GetComponent<GameManagerPast>().MemoryManager();
-                    gameManager.GetComponent<GameManagerPast>().ShowCanvas(
-                        "Go to " + gameManager.GetComponent<GameManagerPast>().currentLocationString + " for a special memory");
+                    gameManager.GetComponent<GameManagerPast>().ChangeFlyer();
+                    gameManager.GetComponent<GameManagerPast>().ArtifactJournal();
                     gameManager.GetComponent<GameManagerPast>().buttonsPressed++;
                     gameManager.GetComponent<GameManagerPast>().ChangeScene();
                 }
