@@ -17,9 +17,9 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="NewBank" ID="{D3FBF0F7-54CA-4CE5-93ED-85AB89593BB6}">
+				<SoundBank Name="OceanSoundBank" ID="{D3FBF0F7-54CA-4CE5-93ED-85AB89593BB6}">
 					<ObjectInclusionList>
-						<ObjectRef Name="NewEvent" ID="{8F93DEFD-D7E6-4BED-990C-558166033BE6}" WorkUnitID="{A3175692-7A6C-4B23-9FC9-E3D16DA8C1AB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_ENV_Ocean" ID="{8F93DEFD-D7E6-4BED-990C-558166033BE6}" WorkUnitID="{A3175692-7A6C-4B23-9FC9-E3D16DA8C1AB}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

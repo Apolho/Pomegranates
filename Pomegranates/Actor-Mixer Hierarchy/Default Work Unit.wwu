@@ -4,7 +4,17 @@
 		<WorkUnit Name="Default Work Unit" ID="{E11FCE8B-1000-4D09-A99B-BF446EA8A851}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="ENV_Adan" ID="{5019019D-4025-435E-A5D2-4ABFB79D9BD0}" ShortID="1027019161">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-4</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Adan_Attenuation" ID="{B01BC597-235F-4114-9726-1266DAE831D8}" WorkUnitID="{A39A5AD4-9986-4A6E-99E3-8C17D94D39FD}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0F80967-0E40-4FF4-A820-46EA4CA14191}"/>
 						</Reference>
@@ -26,6 +36,13 @@
 					</ActiveSourceList>
 				</Sound>
 				<Sound Name="ENV_Street" ID="{49DBDE20-3D78-49A8-B871-278C5B6729DD}" ShortID="306851788">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B0F80967-0E40-4FF4-A820-46EA4CA14191}"/>
