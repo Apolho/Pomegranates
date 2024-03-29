@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
     {
         if (buttonsPressed == 2) //if the button has been pressed
         {
-            SceneManager.LoadScene("PastNew");
+            SceneManager.LoadScene("Past Final");
         }
         
     }

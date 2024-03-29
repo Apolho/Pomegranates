@@ -9,7 +9,7 @@ public class Digging : MonoBehaviour
 
     public int veggiesCollected;
     public GameObject gameManager;
-
+    
     //public GameObject ClickedObj;
 
     
@@ -23,6 +23,7 @@ public class Digging : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetMouseButtonDown(0)) //when left mouse button pressed
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -61,8 +62,8 @@ public class Digging : MonoBehaviour
                     Destroy(hit.collider.gameObject);
                     gameManager.GetComponent<GameManagerPast>().SpawnPaper();
                     gameManager.GetComponent<GameManagerPast>().MemoryManager();
-                    gameManager.GetComponent<GameManagerPast>().ShowCanvas(
-                        "Go to " + gameManager.GetComponent<GameManagerPast>().currentLocationString + " for a special memory");
+                    gameManager.GetComponent<GameManagerPast>().ChangeFlyer();
+                    gameManager.GetComponent<GameManagerPast>().ArtifactJournal();
                     gameManager.GetComponent<GameManagerPast>().buttonsPressed++;
                     gameManager.GetComponent<GameManagerPast>().ChangeScene();
                 }
