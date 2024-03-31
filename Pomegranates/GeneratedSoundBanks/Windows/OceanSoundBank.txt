@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3711960736	Play_ENV_Ocean			\Default Work Unit\Play_ENV_Ocean	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	130202729	ENV_Ocean	Y:\Documents\NYU\Spring 24\Thesis\PomegranatesGIT\Pomegranates\.cache\Windows\SFX\Ocean_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ENV_Ocean		5707104
+

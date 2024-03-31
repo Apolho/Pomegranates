@@ -9,7 +9,24 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="992682255" Type="User" Language="SFX" Hash="{5E4A4C2F-56E6-8C4E-E5D0-2CEC353B2946}">
+		<SoundBank Id="182009900" Type="User" Language="SFX" Hash="{7506D805-C3B3-21C6-F28E-EB3E5D84253B}">
+			<ShortName>OceanSoundBank</ShortName>
+			<Path>OceanSoundBank.bnk</Path>
+			<Media>
+				<File Id="130202729" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Ocean.wav</ShortName>
+					<CachePath>SFX/Ocean_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3711960736" Name="Play_ENV_Ocean" DurationType="OneShot" DurationMin="32.352654" DurationMax="32.352654">
+					<MediaRefs>
+						<MediaRef Id="130202729"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="992682255" Type="User" Language="SFX" Hash="{57EEE4DE-B8B8-961F-5100-DEB9DD2C9E11}">
 			<ShortName>StreetSoundBank</ShortName>
 			<Path>StreetSoundBank.bnk</Path>
 			<Media>
@@ -165,24 +182,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="1986019807" Type="User" Language="SFX" Hash="{B786D889-D6AE-2AC6-B81A-DBB52D951075}">
-			<ShortName>NewBank</ShortName>
-			<Path>NewBank.bnk</Path>
-			<Media>
-				<File Id="130202729" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Ocean.wav</ShortName>
-					<CachePath>SFX/Ocean_10C4C929.wem</CachePath>
-				</File>
-			</Media>
-			<Events>
-				<Event Id="1088943983" Name="NewEvent" DurationType="OneShot" DurationMin="32.352654" DurationMax="32.352654">
-					<MediaRefs>
-						<MediaRef Id="130202729"/>
-					</MediaRefs>
-				</Event>
-			</Events>
-		</SoundBank>
-		<SoundBank Id="2963256630" Type="User" Language="SFX" Hash="{8D86F1F1-9A09-6150-262D-B81C74A9CB99}">
+		<SoundBank Id="2963256630" Type="User" Language="SFX" Hash="{216A3555-67D3-C43C-A1EC-FC06C671071F}">
 			<ShortName>AdanSoundBank</ShortName>
 			<Path>AdanSoundBank.bnk</Path>
 			<Media>
@@ -200,5 +200,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{B4959896-CF17-E70A-8753-EEF7F2ABAA04}</FileHash>
+	<FileHash>{AE608353-96DE-9B87-C8D1-C1A456E893DF}</FileHash>
 </SoundBanksInfo>
