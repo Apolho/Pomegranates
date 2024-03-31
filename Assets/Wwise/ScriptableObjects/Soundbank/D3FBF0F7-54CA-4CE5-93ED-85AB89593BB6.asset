@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d98a66d2a6fe3458655597a8187962, type: 3}
   m_Name: D3FBF0F7-54CA-4CE5-93ED-85AB89593BB6
   m_EditorClassIdentifier: 
-  objectName: NewBank
-  id: 1986019807
+  objectName: OceanSoundBank
+  id: 182009900
   guid: D3FBF0F7-54CA-4CE5-93ED-85AB89593BB6

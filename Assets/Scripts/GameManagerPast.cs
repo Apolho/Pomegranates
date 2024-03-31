@@ -34,7 +34,7 @@ public class GameManagerPast : MonoBehaviour
 
     public TextMeshProUGUI[] bookTextBox;
 
-    public AudioSource journalWriting;
+    //public AudioSource journalWriting;
     
     
     // Start is called before the first frame update
@@ -165,7 +165,7 @@ public class GameManagerPast : MonoBehaviour
     {
         currentLocation.SetActive(true);
         flyerTextBox.text = "Next memory at " + currentLocationString;
-        journalWriting.Play();
+        //journalWriting.Play();
     }
 
     public void SpawnPaper()
